@@ -7,12 +7,29 @@
 //
 
 #include <iostream>
+#include "List.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    List<string> myStringList,myCopy;
+    
+    int i = 0;
+	
+	myStringList.addInfoAtPos("Hola",i++);
+	myStringList.addInfoAtPos("Arif",i++);
+	myStringList.addInfoAtPos("Lorenzo",i++);
+	myStringList.addInfoAtPos("Jose",i++);
+    myStringList.addInfoAtPos("David",i++);
+    
+	
+	myStringList.imprimirLog();
+    
+    //myCharList.deleteAtPos(myCharList.getLenght()-1);
+    myStringList.invertir();
+    
+    myStringList.imprimirLog();
+	
+    
     return 0;
 }
 

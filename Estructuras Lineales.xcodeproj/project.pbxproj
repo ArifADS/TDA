@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2839A8A81855FB3B0090A08F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2839A8A71855FB3B0090A08F /* main.cpp */; };
 		2839A8AA1855FB3B0090A08F /* Estructuras_Lineales.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2839A8A91855FB3B0090A08F /* Estructuras_Lineales.1 */; };
+		2839A8B81855FEA00090A08F /* Cola.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2839A8B31855FEA00090A08F /* Cola.cpp */; };
+		2839A8BA1855FEA00090A08F /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2839A8B71855FEA00090A08F /* Stack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		2839A8A41855FB3B0090A08F /* Estructuras Lineales */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Estructuras Lineales"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2839A8A71855FB3B0090A08F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		2839A8A91855FB3B0090A08F /* Estructuras_Lineales.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Estructuras_Lineales.1; sourceTree = "<group>"; };
+		2839A8B31855FEA00090A08F /* Cola.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cola.cpp; sourceTree = "<group>"; };
+		2839A8B51855FEA00090A08F /* List.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = List.h; sourceTree = "<group>"; };
+		2839A8B61855FEA00090A08F /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		2839A8B71855FEA00090A08F /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			children = (
 				2839A8A71855FB3B0090A08F /* main.cpp */,
 				2839A8A91855FB3B0090A08F /* Estructuras_Lineales.1 */,
+				2839A8B31855FEA00090A08F /* Cola.cpp */,
+				2839A8B51855FEA00090A08F /* List.h */,
+				2839A8B61855FEA00090A08F /* Node.h */,
+				2839A8B71855FEA00090A08F /* Stack.cpp */,
 			);
 			path = "Estructuras Lineales";
 			sourceTree = "<group>";
@@ -117,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2839A8BA1855FEA00090A08F /* Stack.cpp in Sources */,
+				2839A8B81855FEA00090A08F /* Cola.cpp in Sources */,
 				2839A8A81855FB3B0090A08F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
