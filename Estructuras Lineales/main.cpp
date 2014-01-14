@@ -28,6 +28,8 @@ int main(int argc, const char * argv[])
     myStringList.invertir();
     
     myStringList.imprimirLog();
+    
+    printf("%s",myStringList[1].c_str());
 	
     
     return 0;

@@ -157,7 +157,7 @@ class List
 		T getInfoWithPos(int pos){
 			Node<T>* nodeAux;
 			if (pos < 0 || pos>=getLenght()) return (int) NULL;
-			if (pos == 1){
+			if (pos == 0){
 				return header->getInfo();
 			}
 			else if (pos == getLenght()-1){
@@ -205,6 +205,11 @@ class List
 			}
 			return *this;
 		}
+    
+    
+    T operator[](int i) {
+        return this->getInfoWithPos(i);
+    }
     
         void invertir()
         {
