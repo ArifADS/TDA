@@ -29,7 +29,11 @@ int main(int argc, const char * argv[])
     
     myStringList.imprimirLog();
     
-    printf("%s",myStringList[1].c_str());
+    printf("%s\n",myStringList[1].c_str());
+    
+    myStringList[1] = "AKSDNLK";
+    
+    myStringList.imprimirLog();
 	
     
     return 0;

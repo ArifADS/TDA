@@ -207,9 +207,17 @@ class List
 		}
     
     
-    T operator[](int i) {
+        T operator[](int i)
+        {
+            return this->getInfoWithPos(i);
+        }
+    
+    const T operator[](int i) const
+    {
+        printf("holaaa\n");
         return this->getInfoWithPos(i);
     }
+    
     
         void invertir()
         {
